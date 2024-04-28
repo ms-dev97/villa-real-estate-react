@@ -139,7 +139,7 @@ const tabs = ['All', 'Appartment', 'Villa House', 'Penthouse'];
 
 function Properties() {
     useEffect(() => {
-        const filterizr = new Filterizr('.filter-container', {
+        new Filterizr('.filter-container', {
             gridItemsSelector: '.filter-item',
             gutterPixels: 20,
             layout: 'sameWidth'
